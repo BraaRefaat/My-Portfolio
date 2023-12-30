@@ -36,7 +36,10 @@ import { ref, inject, onMounted } from "vue";
 const links = ref([
   {
     title: "Home",
-    target: "#home",
+    target: "#",
+    event: () => {
+      scrollTo(0, 0);
+    },
   },
   {
     title: "About",
