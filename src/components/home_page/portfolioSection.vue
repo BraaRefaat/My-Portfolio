@@ -65,7 +65,7 @@
 import { ref } from "vue";
 const projects = ref([
   {
-    image: "napoli-website.png",
+    image: "elrehab-website.png",
     link: "https://electronic-shop-demo.netlify.app/",
   },
   {

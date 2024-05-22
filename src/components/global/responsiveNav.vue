@@ -4,11 +4,13 @@
       <v-container>
         <v-row>
           <v-col cols="8" class="d-flex justify-start align-center">
-            <img
-              src="../../assets/images/logo-2.png"
-              style="width: 90px"
-              alt=""
-            />
+            <v-lazy transition="fade-transition">
+              <img
+                src="../../assets/images/logo-2.png"
+                style="width: 90px"
+                alt=""
+              />
+            </v-lazy>
           </v-col>
           <v-col cols="4" class="d-flex justify-end align-center">
             <v-app-bar-nav-icon

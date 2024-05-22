@@ -110,7 +110,7 @@
 
 <script setup>
 import appLayout from "@/components/global/appLayout.vue";
-import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
+import { loadSlim } from "tsparticles-slim";
 import { ref } from "vue";
 
 const particlesInit = async (engine) => {
