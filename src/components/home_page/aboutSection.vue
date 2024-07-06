@@ -39,9 +39,8 @@
               Tailwind CSS, SASS, Vue js, and modern libraries and frameworks.
               Let's collaborate and bring your digital vision to life!
             </p>
-            <a href="#portfolio-section">
-              <button class="btn mt-8">Download CV</button>
-            </a>
+
+            <button class="btn mt-8" @click="uploadCv">Download CV</button>
           </div>
         </v-col>
       </v-row>
@@ -56,6 +55,12 @@ import AOS from "aos";
 onMounted(() => {
   AOS.init();
 });
+
+const uploadCv = () => {
+  window.open(
+    "https://drive.google.com/file/d/1k5F_lH-o36J4zEyk5fWUPow7J3BBTpCV/view?usp=drive_link"
+  );
+};
 </script>
 
 <style lang="scss" scoped>
