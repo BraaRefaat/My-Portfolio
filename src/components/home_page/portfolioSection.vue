@@ -69,16 +69,16 @@ const projects = ref([
     link: "https://electronic-shop-demo.netlify.app/",
   },
   {
+    image: "graduation-website.png",
+    link: "https://graduation-platform.netlify.app/",
+  },
+  {
     image: "restaurant-website.png",
     link: "https://burger-restaurant-temp.netlify.app/",
   },
   {
     image: "cruds-website.png",
     link: "https://cruds-temp.netlify.app/",
-  },
-  {
-    image: "gameforever-website.png",
-    link: "https://landing-page-temp.netlify.app/",
   },
   {
     image: "youtube-clone.png",
