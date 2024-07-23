@@ -166,6 +166,6 @@ window.onscroll = () => {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #bad204;
+  background: #d26a25;
 }
 </style>

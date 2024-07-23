@@ -9,11 +9,11 @@
             style="gap: 15px"
           >
             <a :href="social.link" v-for="(social, i) in socialMedia" :key="i">
-              <v-icon size="37" color="#fff">{{ social.icon }}</v-icon>
+              <v-icon size="37" color="#f2f4f3">{{ social.icon }}</v-icon>
             </a>
           </v-col>
           <v-col cols="12">
-            <p style="color: #ced9ef; font-size: 18px; line-height: normal">
+            <p style="color: #f2f4f3; font-size: 18px; line-height: normal">
               &copy; {{ new Date().getFullYear() }} Braa Refaat, All rights
               reserved.
             </p>

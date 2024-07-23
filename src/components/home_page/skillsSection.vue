@@ -1,6 +1,6 @@
 <template>
   <div id="skills-section">
-    <v-container style="height: 100vh">
+    <v-container class="mb-16" style="height: 100%">
       <v-row>
         <v-col cols="12" class="mb-4" data-aos="zoom-out">
           <button class="button mb-8" data-text="Awesome">
@@ -9,7 +9,7 @@
               >&nbsp;Skills&nbsp;</span
             >
           </button>
-          <p style="color: #ced9ef; font-size: 18px; line-height: normal">
+          <p style="color: #f2f4f3; font-size: 20px; line-height: 40px">
             In my toolkit, you'll find a blend of essential tools, libraries,
             and frameworks that empower me to craft robust and innovative
             applications. Here's a glimpse into my skill set

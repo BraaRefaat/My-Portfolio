@@ -4,16 +4,18 @@
       <v-row>
         <v-col cols="12">
           <VueWriter :array="['Braa Refaat', 'Front End Developer']">
-            <h2 style="font-size: 22px; font-weight: 600">Hello I'm</h2>
+            <h2 style="font-size: 22px; font-weight: 600; color: #fff">
+              Hello I'm
+            </h2>
           </VueWriter>
         </v-col>
         <v-col cols="12">
           <div class="parent" style="padding: 12px 180px">
             <p
               style="
-                color: #ced9ef;
-                font-size: 18px;
-                line-height: normal;
+                color: #f2f4f3;
+                font-size: 20px;
+                line-height: 40px;
                 width: 100%;
               "
             >

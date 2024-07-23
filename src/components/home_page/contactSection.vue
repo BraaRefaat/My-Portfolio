@@ -1,6 +1,6 @@
 <template>
   <div id="contact-section">
-    <v-container style="height: 150vh">
+    <v-container style="height: 100%" class="mb-16">
       <v-row>
         <v-col cols="12" class="px-16 mb-4" data-aos="zoom-out">
           <button class="button mb-8" data-text="Awesome">
@@ -21,7 +21,7 @@
         >
           <h1 style="font-size: 60px">Let's Build Something Great Together!</h1>
           <span style="font-size: 60px">&#129309;</span>
-          <p style="color: #ced9ef; font-size: 18px; line-height: normal">
+          <p style="color: #f2f4f3; font-size: 20px; line-height: 40px">
             I'm always looking for new opportunities to collaborate with
             talented people and build innovative web applications. If you have a
             project in mind, please don't hesitate to contact me. I'm happy to

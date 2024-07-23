@@ -1,6 +1,6 @@
 <template>
   <div id="services-section">
-    <v-container style="height: 150vh">
+    <v-container style="height: 100%" class="mb-16">
       <v-row>
         <v-col cols="12" data-aos="fade-down">
           <button class="button" data-text="Awesome">
@@ -26,28 +26,21 @@
                   v-bind="props"
                   variant="flat"
                   color="#162631"
-                  height="322"
+                  height="fit-content"
                   class="py-5 px-5"
-                  :style="`gap: 15px; border: ${
+                  :style="`border: ${
                     isHovering ? '2px #fe7f2d solid' : '2px transparent solid'
                   }; transition: 0.3s all ease-in-out`"
                 >
                   <v-container class="flex-column justify-center align-center">
                     <v-icon color="#fe7f2d" size="37">mdi-web</v-icon>
-                    <v-card-title class="px-0">
-                      Custom Website Development
+                    <v-card-title class="px-0 font-weight-bold text-h5">
+                      Web Development
                     </v-card-title>
                     <v-card-text
-                      style="
-                        color: #ced9ef;
-                        font-size: 15px;
-                        line-height: normal;
-                      "
+                      style="color: #f2f4f3; font-size: 18px; line-height: 40px"
                     >
-                      I specialize in creating custom websites tailored to your
-                      unique requirements. Whether you need a personal blog, a
-                      portfolio website, or a small business site, I can bring
-                      your vision to life.
+                      Build dynamic and interactive web applications.
                     </v-card-text>
                   </v-container>
                 </v-card>
@@ -69,30 +62,21 @@
                   v-bind="props"
                   variant="flat"
                   color="#162631"
-                  height="322"
+                  height="fit-content"
                   class="py-5 px-5"
-                  :style="`gap: 15px; border: ${
+                  :style="`border: ${
                     isHovering ? '2px #fe7f2d solid' : '2px transparent solid'
                   }; transition: 0.3s all ease-in-out`"
                 >
                   <v-container class="flex-column justify-center align-center">
-                    <v-icon color="#fe7f2d" size="37"
-                      >mdi-application-cog-outline</v-icon
-                    >
-                    <v-card-title class="px-0">
-                      Web Application Development
+                    <v-icon color="#fe7f2d" size="37">mdi-responsive</v-icon>
+                    <v-card-title class="px-0 font-weight-bold text-h5">
+                      Website Design
                     </v-card-title>
                     <v-card-text
-                      style="
-                        color: #ced9ef;
-                        font-size: 15px;
-                        line-height: normal;
-                      "
+                      style="color: #f2f4f3; font-size: 18px; line-height: 40px"
                     >
-                      Need a dynamic web application? I can develop interactive
-                      and feature-rich web applications using the latest
-                      front-end technologies, ensuring a seamless user
-                      experience.
+                      Create responsive and visually appealing layouts.
                     </v-card-text>
                   </v-container>
                 </v-card>
@@ -114,28 +98,21 @@
                   v-bind="props"
                   variant="flat"
                   color="#162631"
-                  height="322"
+                  height="fit-content"
                   class="py-5 px-5"
-                  :style="`gap: 15px; border: ${
+                  :style="`border: ${
                     isHovering ? '2px #fe7f2d solid' : '2px transparent solid'
                   }; transition: 0.3s all ease-in-out`"
                 >
                   <v-container class="flex-column justify-center align-center">
                     <v-icon color="#fe7f2d" size="37">mdi-bug-check</v-icon>
-                    <v-card-title class="px-0">
+                    <v-card-title class="px-0 font-weight-bold text-h5">
                       Performance Optimization
                     </v-card-title>
                     <v-card-text
-                      style="
-                        color: #ced9ef;
-                        font-size: 15px;
-                        line-height: normal;
-                      "
+                      style="color: #f2f4f3; font-size: 18px; line-height: 40px"
                     >
-                      I optimize websites for speed and performance, ensuring
-                      fast loading times and smooth interactions. A
-                      well-optimized site not only enhances user experience but
-                      also positively impacts search engine rankings.
+                      Improve loading speed and responsiveness.
                     </v-card-text>
                   </v-container>
                 </v-card>

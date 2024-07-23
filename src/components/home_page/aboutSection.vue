@@ -1,8 +1,8 @@
 <template>
   <div id="about-section">
     <v-container
-      class="d-flex justify-center align-center text-start"
-      style="height: 150vh"
+      class="d-flex justify-center align-center text-start mb-16"
+      style="height: 100%"
     >
       <v-row>
         <v-col cols="12" sm="12" md="5" lg="5" xl="5" data-aos="fade-right">
@@ -30,7 +30,7 @@
                 >&nbsp;About&nbsp;</span
               >
             </button>
-            <p style="color: #ced9ef; font-size: 18px; line-height: normal">
+            <p style="color: #f2f4f3; font-size: 20px; line-height: 40px">
               Hey there! I'm Braa Refaat, I'm Egyptian, a dedicated front-end
               developer with a passion for creating visually stunning and
               user-friendly websites. With a blend of creativity and coding

@@ -9,7 +9,7 @@
               >&nbsp;Portfolio&nbsp;</span
             >
           </button>
-          <p style="color: #ced9ef; font-size: 18px; line-height: normal">
+          <p style="color: #f2f4f3; font-size: 18px; line-height: 40px">
             Discover my world of creativity through a collection of handpicked
             projects. From sleek websites to captivating web applications, my
             portfolio showcases a blend of design finesse and technical skill.
