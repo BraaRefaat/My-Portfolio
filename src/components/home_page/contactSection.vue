@@ -79,8 +79,8 @@
 }
 
 .btn {
-  --color: #97ab00;
-  --color2: #0a191e;
+  --color: #fe7f2d;
+  --color2: #233d4d;
   padding: 0.8em 1.75em;
   background-color: transparent;
   border-radius: 30px;

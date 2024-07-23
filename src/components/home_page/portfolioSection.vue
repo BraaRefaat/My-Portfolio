@@ -42,7 +42,7 @@
                   <a :href="project.link" target="_blank">
                     <v-btn
                       variant="outlined"
-                      color="#0a191e"
+                      color="#233d4d"
                       density="compact"
                       width="60"
                       height="60"
@@ -121,7 +121,7 @@ const projects = ref([
       width: 100%;
       height: 100%;
       border-radius: 20px;
-      background-color: #97ab00;
+      background-color: #fe7f2d;
       opacity: 0;
       transition: opacity 0.3s ease;
     }
@@ -139,9 +139,9 @@ const projects = ref([
       opacity: 0;
       &:hover {
         border-radius: 30px;
-        background-color: #0a191e !important;
+        background-color: #233d4d !important;
         .v-icon {
-          color: #97ab00;
+          color: #fe7f2d;
         }
       }
     }

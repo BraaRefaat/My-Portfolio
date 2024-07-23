@@ -44,7 +44,7 @@ import VueWriter from "vue-writer";
 
 <style lang="scss">
 .is-typed span.typed {
-  color: #97ab00;
+  color: #fe7f2d;
   font-size: 50px;
   font-weight: 600;
 }
@@ -55,7 +55,7 @@ import VueWriter from "vue-writer";
   font-weight: 600;
   width: 4px;
   margin-left: 2px;
-  background-color: #97ab00;
+  background-color: #fe7f2d;
   animation: blink 1s infinite;
 }
 
@@ -64,7 +64,7 @@ import VueWriter from "vue-writer";
   width: 10px;
   height: 1px;
   align-items: flex-end;
-  background-color: #97ab00;
+  background-color: #fe7f2d;
   animation: blink 1s infinite;
 }
 
@@ -89,8 +89,8 @@ a {
   width: 100%;
   height: 100%;
   .btn {
-    --color: #97ab00;
-    --color2: #0a191e;
+    --color: #fe7f2d;
+    --color2: #233d4d;
     padding: 0.8em 1.75em;
     background-color: transparent;
     border-radius: 30px;

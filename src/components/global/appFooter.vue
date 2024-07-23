@@ -58,7 +58,7 @@ a {
     cursor: pointer;
     transition: 0.3s all ease-in-out;
     &:hover {
-      color: #97ab00 !important;
+      color: #fe7f2d !important;
       transform: scale(1.2);
     }
   }

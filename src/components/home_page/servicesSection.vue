@@ -25,15 +25,15 @@
                 <v-card
                   v-bind="props"
                   variant="flat"
-                  color="#112228"
+                  color="#162631"
                   height="322"
                   class="py-5 px-5"
                   :style="`gap: 15px; border: ${
-                    isHovering ? '2px #97ab00 solid' : '2px transparent solid'
+                    isHovering ? '2px #fe7f2d solid' : '2px transparent solid'
                   }; transition: 0.3s all ease-in-out`"
                 >
                   <v-container class="flex-column justify-center align-center">
-                    <v-icon color="#97ab00" size="37">mdi-web</v-icon>
+                    <v-icon color="#fe7f2d" size="37">mdi-web</v-icon>
                     <v-card-title class="px-0">
                       Custom Website Development
                     </v-card-title>
@@ -68,15 +68,15 @@
                 <v-card
                   v-bind="props"
                   variant="flat"
-                  color="#112228"
+                  color="#162631"
                   height="322"
                   class="py-5 px-5"
                   :style="`gap: 15px; border: ${
-                    isHovering ? '2px #97ab00 solid' : '2px transparent solid'
+                    isHovering ? '2px #fe7f2d solid' : '2px transparent solid'
                   }; transition: 0.3s all ease-in-out`"
                 >
                   <v-container class="flex-column justify-center align-center">
-                    <v-icon color="#97ab00" size="37"
+                    <v-icon color="#fe7f2d" size="37"
                       >mdi-application-cog-outline</v-icon
                     >
                     <v-card-title class="px-0">
@@ -113,15 +113,15 @@
                 <v-card
                   v-bind="props"
                   variant="flat"
-                  color="#112228"
+                  color="#162631"
                   height="322"
                   class="py-5 px-5"
                   :style="`gap: 15px; border: ${
-                    isHovering ? '2px #97ab00 solid' : '2px transparent solid'
+                    isHovering ? '2px #fe7f2d solid' : '2px transparent solid'
                   }; transition: 0.3s all ease-in-out`"
                 >
                   <v-container class="flex-column justify-center align-center">
-                    <v-icon color="#97ab00" size="37">mdi-bug-check</v-icon>
+                    <v-icon color="#fe7f2d" size="37">mdi-bug-check</v-icon>
                     <v-card-title class="px-0">
                       Performance Optimization
                     </v-card-title>
@@ -170,7 +170,7 @@ onMounted(() => {
   /* button styling */
   --border-right: 6px;
   --text-stroke-color: #fff;
-  --animation-color: #97ab00;
+  --animation-color: #fe7f2d;
   --fs-size: 2em;
   --fs-weight: bold;
   letter-spacing: 4px;

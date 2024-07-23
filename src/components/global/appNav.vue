@@ -2,7 +2,7 @@
   <div class="app-nav">
     <v-layout>
       <v-app-bar
-        color="#0a191e"
+        color="#233d4d"
         class="position-fixed"
         elevation="0"
         height="100"
@@ -11,7 +11,7 @@
           <v-row>
             <v-col cols="2">
               <v-lazy transition="fade-transition">
-                <img src="../../assets/images/logo-2.png" width="150" alt="" />
+                <img src="../../assets/images/logo-3.png" width="150" alt="" />
               </v-lazy>
             </v-col>
 
@@ -86,7 +86,7 @@ const links = ref([
       width: 0;
       height: 2px;
       border-radius: 2px;
-      background-color: #97ab00;
+      background-color: #fe7f2d;
       position: absolute;
       bottom: -0.25rem;
       left: 50%;

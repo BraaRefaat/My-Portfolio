@@ -34,7 +34,7 @@
             <v-btn
               variant="outlined"
               :ripple="false"
-              color="#97AB00"
+              color="#fe7f2d"
               style="border-radius: 30%; height: 70px; width: 70px"
             >
               <span style="height: 50px" v-html="skill.icon"></span>
@@ -169,7 +169,7 @@ const skills = ref([
 
 <style lang="scss" scoped>
 .v-btn {
-  background-color: #97ab0017 !important;
+  background-color: #fe7f2d17 !important;
   transition: 0.3s all ease-in-out !important;
   border: 2px solid transparent !important;
   span {
@@ -178,7 +178,7 @@ const skills = ref([
   &:hover,
   &:focus {
     border-radius: 50% !important;
-    border: 2px solid #97ab00 !important;
+    border: 2px solid #fe7f2d !important;
     span {
       transform: scale(0.8);
     }

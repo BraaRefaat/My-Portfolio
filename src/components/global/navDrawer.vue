@@ -4,16 +4,16 @@
       class="px-5"
       location="right"
       v-model="drawer"
-      color="#0a191e"
+      color="#233d4d"
       width="220"
       style="height: fit-content"
     >
-      <v-card elevation="0" color="#0a191e" class="px-0 mt-5">
+      <v-card elevation="0" color="#233d4d" class="px-0 mt-5">
         <v-btn
           @click="drawer = false"
           elevation="0"
           size="40"
-          color="#97ab00"
+          color="#fe7f2d"
           variant="text"
           style="border-radius: 50%"
           ><v-icon size="27">mdi-close</v-icon></v-btn
@@ -91,7 +91,7 @@ onMounted(() => {
       width: 0;
       height: 2px;
       border-radius: 2px;
-      background-color: #97ab00;
+      background-color: #fe7f2d;
       position: absolute;
       bottom: -0.25rem;
       left: 50%;

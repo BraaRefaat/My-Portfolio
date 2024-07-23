@@ -7,7 +7,7 @@
       :options="{
         background: {
           color: {
-            value: '#0a191e',
+            value: '#233d4d',
           },
         },
         fullScreen: {
@@ -45,10 +45,10 @@
         },
         particles: {
           color: {
-            value: '#97AB00',
+            value: '#fe7f2d',
           },
           links: {
-            color: '#97AB00',
+            color: '#fe7f2d',
             distance: 150,
             enable: true,
             opacity: 0.5,
@@ -90,7 +90,7 @@
       class="scroller"
       variant="outlined"
       :ripple="false"
-      color="#97AB00"
+      color="#fe7f2d"
       @click="scrollToStart"
       v-on:scroll="scrollY"
       style="
@@ -103,7 +103,7 @@
         width: 60px;
       "
       v-show="showScroller"
-      ><v-icon color="#97AB00" size="37">mdi-chevron-up</v-icon></v-btn
+      ><v-icon color="#fe7f2d" size="37">mdi-chevron-up</v-icon></v-btn
     >
   </app-layout>
 </template>
@@ -139,13 +139,13 @@ window.onscroll = () => {
   text-align: center;
   color: #2c3e50;
   .scroller {
-    background-color: #97ab0017 !important;
+    background-color: #fe7f2d17 !important;
     transition: 0.3s all ease-in-out !important;
     border: 2px solid transparent !important;
     &:hover,
     &:focus {
       border-radius: 50% !important;
-      border: 2px solid #97ab00 !important;
+      border: 2px solid #fe7f2d !important;
     }
   }
 }
@@ -156,11 +156,11 @@ window.onscroll = () => {
 
 ::-webkit-scrollbar-track {
   width: 8px;
-  background-color: #0a191e;
+  background-color: #233d4d;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #97ab00;
+  background: #fe7f2d;
   border-radius: 30px;
   width: 8px;
 }
