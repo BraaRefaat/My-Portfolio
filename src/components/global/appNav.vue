@@ -21,7 +21,7 @@
                 class="d-flex justify-space-between align-center bg-transparent"
               >
                 <v-list-item v-for="link in links" :key="link.target">
-                  <a :href="link.target">{{ link.title }}</a>
+                  <a :href="link.target" v-smooth-scroll>{{ link.title }}</a>
                 </v-list-item>
               </v-list>
             </v-col>
@@ -34,13 +34,11 @@
 
 <script setup>
 import { ref } from "vue";
+
 const links = ref([
   {
     title: "Home",
-    target: "#",
-    event: () => {
-      scrollTo(0, 0);
-    },
+    target: "#app",
   },
   {
     title: "About",

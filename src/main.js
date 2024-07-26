@@ -10,6 +10,9 @@ const Emitter = mitt();
 // Vue-writer
 import VueWriter from "vue-writer";
 
+// Vue-smooth-scroll
+import VueSmoothScroll from "vue3-smooth-scroll";
+
 // Aos
 import "aos/dist/aos.css";
 
@@ -29,6 +32,7 @@ createApp(App)
   .provide("Emitter", Emitter)
   .use(vuetify)
   .use(VueWriter)
+  .use(VueSmoothScroll)
   .use(Particles)
   .use(router)
   .mount("#app");

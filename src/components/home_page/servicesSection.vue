@@ -1,7 +1,7 @@
 <template>
   <div id="services-section">
     <v-container style="height: 100%" class="mb-16">
-      <v-row>
+      <v-row class="d-flex justify-center align-center">
         <v-col cols="12" data-aos="fade-down">
           <button class="button" data-text="Awesome">
             <span class="actual-text">&nbsp;Services&nbsp;</span>
