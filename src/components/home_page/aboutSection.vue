@@ -58,7 +58,7 @@ onMounted(() => {
 
 const uploadCv = () => {
   window.open(
-    "https://drive.google.com/file/d/1k5F_lH-o36J4zEyk5fWUPow7J3BBTpCV/view?usp=drive_link"
+    "https://drive.google.com/file/d/18phenF2qE54PPxvtWrpZmSzm-IBVL7d_/view?usp=sharing"
   );
 };
 </script>
