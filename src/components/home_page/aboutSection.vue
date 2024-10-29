@@ -9,7 +9,7 @@
           <div class="img-parent d-flex justify-center align-center">
             <img
               src="../../assets/images/Me-image.png"
-              style="width: 90%; border-radius: 10px"
+              style="width: 80%; border-radius: 10px"
               alt=""
             />
           </div>

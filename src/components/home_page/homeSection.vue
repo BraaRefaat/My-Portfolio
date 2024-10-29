@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <v-container fluid style="height: 100vh">
+    <v-container fluid class="home-container" style="height: 100vh">
       <v-row>
         <v-col cols="12">
           <VueWriter :array="['Braa Refaat', 'Front End Developer']">
@@ -49,6 +49,11 @@ import VueWriter from "vue-writer";
   color: #fe7f2d;
   font-size: 50px;
   font-weight: 600;
+  cursor: url(../../assets/images/mouse-text.png), auto;
+}
+
+h2 {
+  cursor: url(../../assets/images/mouse-text.png), auto;
 }
 
 .is-typed span.cursor {
@@ -100,11 +105,11 @@ a {
     transition: 0.5s;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
+    cursor: url(../../assets/images/pointer.png), auto;
     z-index: 1;
     font-weight: 500;
     font-size: 18px;
-    color: var(--color);
+    color: #fff;
     &::after,
     &::before {
       content: "";
@@ -153,6 +158,9 @@ a {
   }
 }
 @media (max-width: 576px) {
+  .home-container {
+    height: 100% !important;
+  }
   .parent,
   .btn-parent {
     padding: 12px 10px !important;

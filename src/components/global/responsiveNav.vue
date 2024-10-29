@@ -35,12 +35,18 @@ const openNav = () => {
 </script>
 
 <style lang="scss" scoped>
+.v-btn--icon {
+  cursor: url(../../assets/images/pointer.png), auto;
+  .mdi-menu {
+    cursor: url(../../assets/images/pointer.png), auto;
+  }
+}
+
 img {
   transform: scale(1.4);
   transition: 0.3s;
   &:hover {
     transform: scale(1.5);
-    cursor: pointer;
   }
 }
 </style>

@@ -132,6 +132,9 @@ window.onscroll = () => {
 </script>
 
 <style lang="scss">
+* {
+  cursor: url(./assets/images/cursor.png), auto;
+}
 #app {
   font-family: cairo;
   -webkit-font-smoothing: antialiased;
@@ -142,6 +145,10 @@ window.onscroll = () => {
     background-color: #fe7f2d17 !important;
     transition: 0.3s all ease-in-out !important;
     border: 2px solid transparent !important;
+    cursor: url(./assets/images/pointer.png), auto;
+    .v-icon {
+      cursor: url(./assets/images/pointer.png), auto;
+    }
     &:hover,
     &:focus {
       border-radius: 50% !important;

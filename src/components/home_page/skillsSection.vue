@@ -172,6 +172,7 @@ const skills = ref([
   background-color: #fe7f2d17 !important;
   transition: 0.3s all ease-in-out !important;
   border: 2px solid transparent !important;
+  cursor: url(../../assets/images/cursor.png), auto;
   span {
     transition: 0.3s all ease-in-out;
   }

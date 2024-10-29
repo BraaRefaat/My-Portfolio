@@ -75,7 +75,17 @@
 #contact-section {
   .v-field {
     border-radius: 20px;
+    cursor: url(../../assets/images/mouse-text.png), auto !important;
   }
+}
+
+.mdi-close-circle {
+  cursor: url(../../assets/images/pointer.png), auto !important;
+}
+
+h1,
+p {
+  cursor: url(../../assets/images/mouse-text.png), auto;
 }
 
 .btn {
@@ -88,17 +98,18 @@
   transition: 0.5s;
   position: relative;
   overflow: hidden;
-  cursor: pointer;
+  cursor: url(../../assets/images/pointer.png), auto;
   z-index: 1;
   font-weight: 500;
   font-size: 18px;
-  color: var(--color);
+  color: #fff;
   &::after,
   &::before {
     content: "";
     display: block;
     height: 100%;
     width: 100%;
+    cursor: url(../../assets/images/pointer.png), auto;
     transform: skew(90deg) translate(-50%, -50%);
     position: absolute;
     inset: 50%;
@@ -109,20 +120,25 @@
   }
   &::before {
     top: -50%;
+    cursor: url(../../assets/images/pointer.png), auto;
     left: -25%;
     transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
   }
   &:hover::before {
     transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+    cursor: url(../../assets/images/pointer.png), auto;
   }
   &:hover::after {
     transform: skew(45deg) translate(-50%, -50%);
+    cursor: url(../../assets/images/pointer.png), auto;
   }
   &:hover {
     color: var(--color2);
+    cursor: url(../../assets/images/pointer.png), auto;
   }
   &:active {
     filter: brightness(0.7);
+    cursor: url(../../assets/images/pointer.png), auto;
     transform: scale(0.98);
   }
 }

@@ -55,7 +55,7 @@ const socialMedia = ref([
 a {
   width: fit-content;
   .v-icon {
-    cursor: pointer;
+    cursor: url(../../assets/images/pointer.png), auto;
     transition: 0.3s all ease-in-out;
     &:hover {
       color: #fe7f2d !important;

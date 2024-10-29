@@ -136,12 +136,14 @@ const projects = ref([
       font-size: 13px;
       border-radius: 20px;
       transition: 0.3s all ease-in-out;
+      cursor: url(../../assets/images/pointer.png), auto;
       opacity: 0;
       &:hover {
         border-radius: 30px;
         background-color: #233d4d !important;
         .v-icon {
           color: #fe7f2d;
+          cursor: url(../../assets/images/pointer.png), auto;
         }
       }
     }

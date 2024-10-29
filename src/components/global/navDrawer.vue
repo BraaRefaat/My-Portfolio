@@ -71,9 +71,15 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .nav-drawer {
+  .v-btn {
+    cursor: url(../../assets/images/pointer.png), auto;
+    .v-icon {
+      cursor: url(../../assets/images/pointer.png), auto;
+    }
+  }
   .v-list-item {
     color: #fff;
-    cursor: pointer;
+    cursor: url(../../assets/images/pointer.png), auto;
     font-size: 1rem;
     font-weight: 600;
     width: fit-content;
@@ -82,6 +88,7 @@ onMounted(() => {
       line-height: 2;
       text-decoration: none;
       position: relative;
+      cursor: url(../../assets/images/pointer.png), auto;
     }
     &::before {
       content: "";
@@ -93,9 +100,6 @@ onMounted(() => {
       bottom: -0.25rem;
       left: 50%;
       transition: width 0.4s, left 0.4s;
-    }
-    &:hover {
-      cursor: pointer;
     }
     &:hover::before {
       width: 100%;

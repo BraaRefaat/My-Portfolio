@@ -78,6 +78,7 @@ const links = ref([
       line-height: 2;
       text-decoration: none;
       position: relative;
+      cursor: url(../../assets/images/pointer.png), auto;
     }
     &::before {
       content: "";
@@ -89,9 +90,6 @@ const links = ref([
       bottom: -0.25rem;
       left: 50%;
       transition: width 0.4s, left 0.4s;
-    }
-    &:hover {
-      cursor: pointer;
     }
     &:hover::before {
       width: 100%;
