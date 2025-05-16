@@ -20,8 +20,8 @@
               <v-list
                 class="d-flex justify-space-between align-center bg-transparent"
               >
-                <v-list-item v-for="link in links" :key="link.target">
-                  <a :href="link.target" v-smooth-scroll>{{ link.title }}</a>
+                <v-list-item v-for="link in links" :key="link.to">
+                  <router-link :to="link.to">{{ link.title }}</router-link>
                 </v-list-item>
               </v-list>
             </v-col>
@@ -38,27 +38,27 @@ import { ref } from "vue";
 const links = ref([
   {
     title: "Home",
-    target: "#app",
+    to: "/",
   },
   {
     title: "About",
-    target: "#about-section",
+    to: "/about",
   },
   {
     title: "Services",
-    target: "#services-section",
+    to: "/services",
   },
   {
     title: "Skills",
-    target: "#skills-section",
+    to: "/skills",
   },
   {
     title: "Portfolio",
-    target: "#portfolio-section",
+    to: "/portfolio",
   },
   {
     title: "Contact",
-    target: "#contact-section",
+    to: "/contact",
   },
 ]);
 </script>
@@ -73,7 +73,9 @@ const links = ref([
   }
 
   .v-list-item {
-    a {
+    a,
+    router-link,
+    .router-link-active {
       color: #fff;
       line-height: 2;
       text-decoration: none;

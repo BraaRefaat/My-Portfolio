@@ -1,6 +1,6 @@
 <template>
   <div id="portfolio-section" class="d-flex justify-center align-center">
-    <v-container style="height: 100%" class="mx-0 mb-16">
+    <v-container style="height: 100%" class="mx-0 mt-16 mb-16">
       <v-row>
         <v-col cols="12" class="mb-8" data-aos="fade-down">
           <button class="button mb-8" data-text="Awesome">

@@ -2,9 +2,7 @@
   <div class="app-layout" style="overflow-x: hidden">
     <v-layout class="d-block">
       <navDrawer />
-      <v-main
-        :style="`margin-top: ${windowWidth <= 1074 ? '120px' : '180px'};`"
-      >
+      <v-main>
         <slot></slot>
       </v-main>
       <appNav v-show="windowWidth > 1074" />
