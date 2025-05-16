@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import skillsSection from "@/components/skillsSection.vue";
+import skillsSection from "@/components/home_page/skillsSection.vue";
 </script>

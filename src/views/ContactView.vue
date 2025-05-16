@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import contactSection from "@/components/contactSection.vue";
+import contactSection from "@/components/home_page/contactSection.vue";
 </script>
