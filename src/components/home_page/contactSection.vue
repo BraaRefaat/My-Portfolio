@@ -1,9 +1,6 @@
 <template>
   <div id="contact-section">
-    <v-container
-      style="height: 100vh"
-      class="d-flex justify-center align-center mb-16"
-    >
+    <v-container style="height: 100%" class="mb-16">
       <v-row>
         <v-col cols="12" class="px-16 mb-4" data-aos="zoom-out">
           <button class="button mb-8" data-text="Awesome">

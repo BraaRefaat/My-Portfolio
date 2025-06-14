@@ -1,10 +1,6 @@
 <template>
   <div id="home">
-    <v-container
-      fluid
-      class="home-container d-flex justify-center align-center mb-16"
-      style="height: 100vh"
-    >
+    <v-container fluid class="home-container" style="height: 100vh">
       <v-row>
         <v-col cols="12">
           <VueWriter :array="['Braa Refaat', 'Front End Developer']">
@@ -34,9 +30,9 @@
         </v-col>
         <v-col cols="12">
           <div class="btn-parent" style="padding: 12px 180px">
-            <router-link to="/portfolio">
+            <a href="#portfolio-section">
               <button class="btn">View My Work</button>
-            </router-link>
+            </a>
           </div>
         </v-col>
       </v-row>

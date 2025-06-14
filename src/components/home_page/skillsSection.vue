@@ -1,9 +1,6 @@
 <template>
   <div id="skills-section">
-    <v-container
-      class="d-flex justify-center align-center mb-16"
-      style="height: 100vh"
-    >
+    <v-container class="mb-16" style="height: 100%">
       <v-row>
         <v-col cols="12" class="mb-4" data-aos="zoom-out">
           <button class="button mb-8" data-text="Awesome">

@@ -19,11 +19,9 @@
           ><v-icon size="27">mdi-close</v-icon></v-btn
         >
         <v-list class="d-flex justify-center align-center flex-column">
-          <v-list-item v-for="link in links" :key="link.to" class="mb-4">
+          <v-list-item v-for="link in links" :key="link.target" class="mb-4">
             <v-list-title>
-              <router-link :to="link.to" @click="drawer = false">
-                {{ link.title }}
-              </router-link>
+              <a :href="link.target" v-smooth-scroll>{{ link.title }}</a>
             </v-list-title>
           </v-list-item>
         </v-list>
@@ -38,27 +36,27 @@ import { ref, inject, onMounted } from "vue";
 const links = ref([
   {
     title: "Home",
-    to: "/",
+    target: "#app",
   },
   {
     title: "About",
-    to: "/about",
+    target: "#about-section",
   },
   {
     title: "Services",
-    to: "/services",
+    target: "#services-section",
   },
   {
     title: "Skills",
-    to: "/skills",
+    target: "#skills-section",
   },
   {
     title: "Portfolio",
-    to: "/portfolio",
+    target: "#portfolio-section",
   },
   {
     title: "Contact",
-    to: "/contact",
+    target: "#contact-section",
   },
 ]);
 const drawer = ref(false);
@@ -85,9 +83,7 @@ onMounted(() => {
     font-size: 1rem;
     font-weight: 600;
     width: fit-content;
-    a,
-    router-link,
-    .router-link-active {
+    a {
       color: #fff;
       line-height: 2;
       text-decoration: none;
