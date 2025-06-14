@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import homeSection from "@/components/home_page/homeSection.vue";
+import homeSection from "@/components/homeSection.vue";
 </script>

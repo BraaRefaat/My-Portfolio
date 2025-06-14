@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import aboutSection from "@/components/home_page/aboutSection.vue";
+import aboutSection from "@/components/aboutSection.vue";
 </script>

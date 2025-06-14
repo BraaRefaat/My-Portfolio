@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import portfolioSection from "@/components/home_page/portfolioSection.vue";
+import portfolioSection from "@/components/portfolioSection.vue";
 </script>

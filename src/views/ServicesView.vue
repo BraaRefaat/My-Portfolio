@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-import servicesSection from "@/components/home_page/servicesSection.vue";
+import servicesSection from "@/components/servicesSection.vue";
 </script>
